@@ -5,3 +5,4 @@ on:
 jobs:
   demo:
     uses: FulcrumOps/reusable-workflow-infra-pipeline/.github/workflows/receive.yml@main
+    secrets: inherit
