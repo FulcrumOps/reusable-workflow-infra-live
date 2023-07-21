@@ -4,5 +4,6 @@ on:
 
 jobs:
   demo:
+    name: Terraform Plan
     uses: FulcrumOps/reusable-workflow-infra-pipeline/.github/workflows/receive.yml@main
     secrets: inherit
